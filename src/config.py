@@ -9,7 +9,8 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 SYMBOLS = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!?"\',.-='
 BLANK_SYMBOL = len(SYMBOLS)
-# NUM_CLASSES = len(SYMBOLS) + 1
+NUM_CLASSES = len(SYMBOLS) + 1
 
 WIDTH = 256
 HEIGHT = 64
+CHANNELS = 1

@@ -1,4 +1,5 @@
-/train_model
-/models
+train_model/
+models/
 __pycache__/
+img/
 structure.txt
