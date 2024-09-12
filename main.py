@@ -18,7 +18,9 @@ def main(image_path):
     model.eval()
 
     if os.path.isdir(image_path):
-        image_paths = [os.path.join(image_path, filename) for filename in os.listdir(image_path)]
+        image_paths = [os.path.join(image_path, filename) 
+                        for filename in os.listdir(image_path) 
+                        if filename.split('.')[-1] in ['png', 'jpeg', 'jpg']]
     else:
         image_paths = [image_path]
 
