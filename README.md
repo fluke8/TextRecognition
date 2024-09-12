@@ -1,13 +1,14 @@
 # TextRecognition
+
 Пет-проект по созданию модели для распознавания текста
-=
+
 ## Установка 
 
 1. Клонирование репозитория 
 
 ```git clone https://github.com/fluke8/TextRecognition.git```
 
-2. Переход в директорию Oxygen
+2. Переход в директорию TextRecognition
 
 ```cd TextRecognition```
 
