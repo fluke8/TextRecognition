@@ -1,5 +1,5 @@
 import cv2
-from image_processing import transform
+from .image_processing import transform
 
 def read_image(path):
     img = cv2.imread(path, 0)

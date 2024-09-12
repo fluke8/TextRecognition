@@ -1,6 +1,6 @@
 from torchvision import transforms
 import torch
-from config import WIDTH, HEIGHT
+from .config import WIDTH, HEIGHT
 
 
 class ResizePadding:

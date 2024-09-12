@@ -10,9 +10,13 @@ def main(image_path):
 
     print(f"Image directory: {image_path}")
 
+    print(os.listdir("/"))
+    print(os.listdir(image_path))
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Process some images.')
     parser.add_argument('--image_path', type=str, required=True, help='Path to the image(s)')
     
     args = parser.parse_args()
-    main(args.image_dir)
+    main(args.image_path)
